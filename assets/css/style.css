@@ -4,6 +4,8 @@ body{
     background-repeat: repeat-x repeat-y;
     
 }
+
+
 .navbar .navbar-nav .nav-item a:hover{
     color:red;
 }
@@ -56,4 +58,9 @@ form .btn:active{
 }
 form .btn:focus{
     background:orange;
+}
+.footer{
+    border-top: 8px solid #4aaaa5;
+    border-bottom: 8px solid #4aaaa5;
+    background: darkgrey;
 }
