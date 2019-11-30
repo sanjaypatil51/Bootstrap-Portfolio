@@ -20,10 +20,10 @@ h1{
    background:#4aaaa5;   
    text-align:center;
 }
-figure .figure-img {   
-   width:100%;
-   height:100%;  
-
+figure .figure-img {  
+   width: 100%;
+   height:100%;
+   
 }
 
 figure {
@@ -32,8 +32,28 @@ figure {
 figure .figure-caption{
     position: absolute;
     top:80%;
-    left:80%;
+    left:0%;
+    width:100%;    
     background:#4aaaa5;
     font:bold;
+    text-align: center;
+    padding-left:2%;
+    padding-right:2%;
     
+}
+
+form .btn{
+    background:#4aaaa5;
+    color:white;
+    
+}
+form .btn:hover{
+    color:red;
+
+}
+form .btn:active{
+    font-size:150%;
+}
+form .btn:focus{
+    background:orange;
 }
