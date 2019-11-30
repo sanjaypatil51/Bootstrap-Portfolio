@@ -1,0 +1,17 @@
+
+.navbar .navbar-nav .nav-item a:hover{
+    color:red;
+}
+
+.navbar .navbar-nav .nav-item a:active{
+    font-size:125%
+}
+
+.container{
+    background:#ffffff;
+}
+
+h1{
+   background:#4aaaa5;   
+   text-align:center;
+}
