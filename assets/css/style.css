@@ -1,4 +1,9 @@
-
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background:  transparent url(../../assets/images/herringbone.png);
+    background-repeat: repeat-x repeat-y;
+    
+}
 .navbar .navbar-nav .nav-item a:hover{
     color:red;
 }
@@ -14,4 +19,21 @@
 h1{
    background:#4aaaa5;   
    text-align:center;
+}
+figure .figure-img {   
+   width:100%;
+   height:100%;  
+
+}
+
+figure {
+    position: relative;
+}
+figure .figure-caption{
+    position: absolute;
+    top:80%;
+    left:80%;
+    background:#4aaaa5;
+    font:bold;
+    
 }
